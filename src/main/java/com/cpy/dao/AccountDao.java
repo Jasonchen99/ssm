@@ -20,7 +20,7 @@ public interface AccountDao {
      * @return
      */
     @Select("select * from account")
-    public List<Account> finAll();
+    public List<Account> findAll();
 
     /**
      * 保存账户信息

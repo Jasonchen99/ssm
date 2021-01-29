@@ -15,7 +15,7 @@ public interface AccountService {
      * 查询所有账户信息
      * @return
      */
-    public List<Account> finAll();
+    public List<Account> findAll();
 
     /**
      * 保存账户信息

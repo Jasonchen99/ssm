@@ -19,9 +19,9 @@ public class AccountServiceImpl implements AccountService {
     @Autowired
     private AccountDao accountDao;
     @Override
-    public List<Account> finAll() {
+    public List<Account> findAll() {
         System.out.println("业务层：查询所有账户信息");
-        return accountDao.finAll();
+        return accountDao.findAll();
     }
 
     @Override
