@@ -47,6 +47,6 @@
     </tx:advice>
     <!--配置AOP增强-->
     <aop:config>
-        <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.cpy.service.ipml.*ServiceImpl.*(..))"></aop:advisor>
+        <aop:advisor advice-ref="txAdvice" pointcut="execution(* com.cpy.service.impl.*ServiceImpl.*(..))"></aop:advisor>
     </aop:config>
 </beans>

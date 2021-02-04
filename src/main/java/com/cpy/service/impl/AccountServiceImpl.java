@@ -1,4 +1,4 @@
-package com.cpy.service.ipml;
+package com.cpy.service.impl;
 
 import com.cpy.dao.AccountDao;
 import com.cpy.domain.Account;
